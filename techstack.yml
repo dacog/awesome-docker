@@ -1,0 +1,336 @@
+repo_name: dacog/awesome-docker
+report_id: ee21104739180a8215daca0bb0ef6124
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T06:39:18+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 23
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2018-06-08 17:38:46.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 14.13.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:52:27.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2020-02-26 00:22:11.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2018-03-17 15:27:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dacog/awesome-docker
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/.github/workflows/pull_request.yml
+  detection_source: ".github/workflows/pull_request.yml"
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-04-13 14:15:18.000000000 Z
+- name: Parcel
+  description: "\U0001F4E6\U0001F680  A fast, zero configuration web application bundler"
+  website_url: https://parceljs.org/
+  version: 1.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/8054/fC6Wad-S_400x400.jpg
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2019-10-14 09:02:30.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-04-13 14:23:00.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2018-03-17 15:27:41.000000000 Z
+- name: Showdown
+  description: JavaScript port of Markdown
+  website_url: https://github.com/coreyti/showdown
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-11-03 21:37:51.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2019-08-28 06:17:23.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 14.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 6.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-10-05 22:46:54.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2020-03-15 09:22:55.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 1.2.6
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2020-09-12 19:06:30.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+- name: parcel-bundler
+  description: Blazing fast, zero configuration web application bundler
+  package_url: https://www.npmjs.com/parcel-bundler
+  version: 1.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16248/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2019-10-14 09:02:30.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dacog/awesome-docker/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julien Bisconti
+  last_updated_on: 2020-04-13 14:15:18.000000000 Z
