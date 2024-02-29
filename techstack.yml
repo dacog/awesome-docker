@@ -2,7 +2,7 @@ repo_name: dacog/awesome-docker
 report_id: ee21104739180a8215daca0bb0ef6124
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-24T06:39:18+00:00'
+timestamp: '2024-02-29T19:37:11+00:00'
 requested_by: web-flow
 provider: github
 branch: master
@@ -99,7 +99,7 @@ tools:
   last_updated_by: Julien Bisconti
   last_updated_on: 2019-10-14 09:02:30.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.1.2
   license: MIT
